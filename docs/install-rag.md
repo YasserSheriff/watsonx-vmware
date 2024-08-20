@@ -202,9 +202,11 @@ This tutorial lists the steps to setup RAG with watsonx.ai, watsonx Discovery, a
    ```shell
    oc -n elastic get route elastic-search-route
    ```
+
    *ELASTIC_USERNAME*: 'elastic' is the default user.
    *ELASTIC_PASSWORD*: this is kibana login password retrieved in the previous step.
-<br>
+
+
 6. Configure *configs/config.yaml*.
    
    ```shell
@@ -221,7 +223,8 @@ This tutorial lists the steps to setup RAG with watsonx.ai, watsonx Discovery, a
    *location*: directory name that contains the documents to be ingested.
    *index_name*: elastic search index name of your choice. 
    *pipeline_name*: elastic search pipeline name of your choice. 
-<br>
+
+
 7. Ingest the documents into elastic by running ingest.py.
 
    ```shell
@@ -301,7 +304,7 @@ Refer to the IBM docs [Enabling the OpenShift internal image registry by using t
    ```
 
 3. Change *spec.managementState* from *Removed* to *Managed*.
-<br>
+
 
 4. Change *spec.storage* from {} to reference the PVC provisioned earlier.
 
@@ -397,7 +400,7 @@ Refer to the IBM docs [Enabling the OpenShift internal image registry by using t
    *WXD_USERNAME*: the default user is "elastic"
    *WXD_PASSWORD*: this is the same as the kibana password retrieved in the previous step.
    *WXD_URL*: this is the same elastic URL retrieved in the previous step.
-<br>
+
 
 6. Create a secret from *secrets.yaml*.
 
@@ -424,13 +427,13 @@ Refer to the IBM docs [Enabling the OpenShift internal image registry by using t
    ```
 
 10. Wait for the pod *rag-xx-build* to turn into the COMPLETED state to ensure the deployment build completes.
-<br>
+
 
 11. The pod *rag-xxxxxxxxxx-xxxxx* should be in either ERROR or CrashLoopBackOff state. That is because the kubernetes deployment has yet to include all the variables defined in *secrets.yaml*.
-<br>
 
-12. Edit *openshift_files/snippet-deployment.yaml* and replace all occurrences of \<wxd-secret> with the name of secret defined in *secrets.yaml*. *rag-secret* is used in this example.
-<br>
+
+12. Edit *openshift_files/snippet-deployment.yaml* and replace all occurrences of \<wxd-secret\> with the name of secret defined in *secrets.yaml*. *rag-secret* is used in this example.
+
 
 13. Insert the content in *openshift_files/snippet-deployment.yaml* into the rag deployment YAML. This can be done by editing the deployment YAML in the OpenShift UI. The snippet is to be inserted under *spec.template.spec.containers*. Note that *env:* needs to be aligned with the container name as shown in the screenshot. After you select *Save* to save the changes, the pod *rag-xxxxxxxxxx-xxxxx* should now be in *Running* state.
 
