@@ -1,0 +1,26 @@
+{
+  "unversionedId": "k8s-storage-tests",
+  "id": "k8s-storage-tests",
+  "title": "Storage Validation Tool for IBM Cloud Paks",
+  "description": "This tutorial uses ansible playbooks to validate file and block storage for Cloud Pak for Data and its services: .",
+  "source": "@site/docs/k8s-storage-tests.md",
+  "sourceDirName": ".",
+  "slug": "/k8s-storage-tests",
+  "permalink": "/watsonx-vmware/k8s-storage-tests",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/watsonx-vmware/"
+  },
+  "next": {
+    "title": "Installing IBM Cloud Pak for Data 4.8.3 and watsonx.ai using CPD-CLI",
+    "permalink": "/watsonx-vmware/install-cpd-watsonxai-manually"
+  }
+}

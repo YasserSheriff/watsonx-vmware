@@ -1,0 +1,22 @@
+{
+  "unversionedId": "install-cpd-watsonxai-deployer",
+  "id": "install-cpd-watsonxai-deployer",
+  "title": "Installing IBM Cloud Pak for Data 4.8.3 and watsonx.ai using Cloud Pak Deployer",
+  "description": "This tutorial uses Cloud Pak Deployer to automate the install of the CPD platform (version 4.8.3) and watsonx.ai. The documentation can be found at:",
+  "source": "@site/docs/install-cpd-watsonxai-deployer.md",
+  "sourceDirName": ".",
+  "slug": "/install-cpd-watsonxai-deployer",
+  "permalink": "/watsonx-vmware/install-cpd-watsonxai-deployer",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing IBM Cloud Pak for Data 4.8.3 and watsonx.ai using CPD-CLI",
+    "permalink": "/watsonx-vmware/install-cpd-watsonxai-manually"
+  }
+}

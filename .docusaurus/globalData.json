@@ -1,0 +1,52 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/watsonx-vmware/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/watsonx-vmware/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "install-cpd-watsonxai-deployer",
+              "path": "/watsonx-vmware/install-cpd-watsonxai-deployer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install-cpd-watsonxai-manually",
+              "path": "/watsonx-vmware/install-cpd-watsonxai-manually",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "install-rag",
+              "path": "/watsonx-vmware/install-rag"
+            },
+            {
+              "id": "intro",
+              "path": "/watsonx-vmware/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "k8s-storage-tests",
+              "path": "/watsonx-vmware/k8s-storage-tests",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/watsonx-vmware/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

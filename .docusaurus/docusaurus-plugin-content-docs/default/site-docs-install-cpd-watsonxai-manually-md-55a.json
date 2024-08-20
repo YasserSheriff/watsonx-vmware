@@ -1,0 +1,23 @@
+{
+  "unversionedId": "install-cpd-watsonxai-manually",
+  "id": "install-cpd-watsonxai-manually",
+  "title": "Installing IBM Cloud Pak for Data 4.8.3 and watsonx.ai using CPD-CLI",
+  "description": "This tutorial uses the cpd-cli to manually install the IBM Cloud Pak for Data platform (version 4.8.3) and watsonx.ai. The documentation can be found at: .",
+  "source": "@site/docs/install-cpd-watsonxai-manually.md",
+  "sourceDirName": ".",
+  "slug": "/install-cpd-watsonxai-manually",
+  "permalink": "/watsonx-vmware/install-cpd-watsonxai-manually",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Storage Validation Tool for IBM Cloud Paks",
+    "permalink": "/watsonx-vmware/k8s-storage-tests"
+  },
+  "next": {
+    "title": "Installing IBM Cloud Pak for Data 4.8.3 and watsonx.ai using Cloud Pak Deployer",
+    "permalink": "/watsonx-vmware/install-cpd-watsonxai-deployer"
+  }
+}

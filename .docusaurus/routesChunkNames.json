@@ -1,0 +1,36 @@
+{
+  "/watsonx-vmware/markdown-page-1f8": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a231024d"
+    },
+    "content": "393be207"
+  },
+  "/watsonx-vmware/-f63": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "0968fe9e"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/watsonx-vmware/-42c": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/watsonx-vmware/install-cpd-watsonxai-deployer-1db": {
+    "__comp": "17896441",
+    "content": "18c829f3"
+  },
+  "/watsonx-vmware/install-cpd-watsonxai-manually-0ca": {
+    "__comp": "17896441",
+    "content": "55a66f52"
+  },
+  "/watsonx-vmware/install-rag-a35": {
+    "__comp": "17896441",
+    "content": "0e967f60"
+  },
+  "/watsonx-vmware/k8s-storage-tests-0b2": {
+    "__comp": "17896441",
+    "content": "cf401714"
+  }
+}

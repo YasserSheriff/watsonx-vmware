@@ -11,4 +11,3 @@ This tutorial provides the steps of installing watsonx.ai on an existing OpenShi
 
 test1
 
-![](2024-04-22-15-29-08.png)

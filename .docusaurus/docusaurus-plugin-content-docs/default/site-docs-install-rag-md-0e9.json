@@ -1,0 +1,17 @@
+{
+  "unversionedId": "install-rag",
+  "id": "install-rag",
+  "title": "Installing Retrieval Augmented Generation (RAG) application using watsonx.ai and watsonx.Discovery",
+  "description": "This tutorial lists the steps to setup RAG with watsonx.ai, watsonx Discovery, and watsonx Assistant",
+  "source": "@site/docs/install-rag.md",
+  "sourceDirName": ".",
+  "slug": "/install-rag",
+  "permalink": "/watsonx-vmware/install-rag",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}
